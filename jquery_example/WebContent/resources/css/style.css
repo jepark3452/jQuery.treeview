@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('common.css');
+@import url('global.css');
+
+/* 첫 로그인 페이지 */
+
+#loginbg {position:absolute; top:50%; left:50%; width:100%; height:459px; margin-left:-50%; margin-top: -290px; background-image:url(../images/admin/bg_loginline.jpg); }
+#loginbox {position:relative; margin:0 auto; margin-top:70px; width:619px; height:459px; background-image:url(../images/admin/bg_login.gif); }
+.login {position:relative; float:left; width:150px; margin-top:180px; margin-left:420px;}
+.login ul li { margin-bottom:21px;}
+.btn {float:left; margin-top:30px; margin-left:334px;}
+
+
+#wrap{ width:100%; _text-align:left;  }
+
+/* 상단컨텐츠 */
+
+#Top{position:relative; width:100%; height:88px; background-image:url(../images/admin/bg_top.jpg); background-repeat:repeat-x;}
+#logo{position:absolute; width:129px; margin-top:15px; margin-left:14px; }
+#name{position:absolute; width:171px; height:20px; margin-top:54px; margin-left:14px; background-image:url(../images/admin/bg_name.png); text-align:center; }
+#logout{position:absolute; width:55px; margin-top:29px; margin-left:92%;}
+
+
+/* 왼쪽메뉴 */
+
+#container{ width:100%; overflow:hidden;  }
+#container:after{display:block; clear:both; content:''}
+
+#MenuBg1{ width:181px; height:100%; margin-left:10px; margin-bottom:10px; background-image: url(/resources/images/treeview/menu_bg2.gif); background-repeat:repeat-y;}
+#MenuBg2{ width:181px; height:100%; background-image: url(/resources/images/treeview/menu_bg1.gif); }
+#MenuBg3{ width:181px; height:100%; background-image: url(/resources/images/treeview/menu_bg3.gif); }
+
+#MenuAll{ margin-left:5px; overflow:hidden;}
+#MenuAll ul li{float:left; margin-right:3px;}
+#MenuList{ margin-left:5px; margin-top:6px;}
+#Menu{ margin-left:5px; margin-top:10px;}
+#sidetree{ margin-left:5px; margin-top:10px;}
+
+/* 본문 */
+
+#Content{ width:97%;}
+
+#root{ width:100%; height:25px; margin-top:10px; margin-bottom:15px; background-image:url(../images/admin/root_line.gif);}
+
+#Footer{width:100%; height:40px; margin-top:25px; margin-bottom:25px; text-align:center; background-image:url(../images/admin/bg_footer.gif); background-repeat:repeat-x;}
+
+
+/* 탭메뉴 */
+#tabmenu{ position:relative; height:31px; background:url(../images/admin/tab_menu.gif) repeat-x 0 100%; font-family:'돋움',dotum; font-size:12px;  }
+#tabmenu ul,#tabmenu ul li{margin:0;padding:0}
+#tabmenu ul li{list-style:none}
+#tabmenu ul li,#tabmenu ul li a{background:url(../images/admin/bg_tab2_off.gif) no-repeat}
+#tabmenu ul li{float:left;margin-right:-1px;line-height:31px}
+#tabmenu ul li a{display:inline-block;padding:1px 20px 4px;_padding:3px 12px 0;background-position: 100% 0; color:#676767;cursor:pointer;text-decoration:none !important}
+#tabmenu ul li a:hover{color:#000;}
+#tabmenu ul li.on,#tabmenu ul li.on a{background-image:url(../images/admin/bg_tab2_on.gif);}
+#tabmenu ul li.on a{color:#ff7800; font-weight:bold;}
+
+#tabcontent0{clear:both; margin-top:17px;}
+#tabcontent1{clear:both; margin-top:17px;}
+#tabcontent2{clear:both; margin-top:17px;}
+#tabcontent3{clear:both; margin-top:17px;}
+/* //탭메뉴 */
+
+
+/* 리스트 마우스 Up, Out */
+.listUp		{ cursor:hand; color : #ff7800; background-color : #BCE0DF; }
+.listOut		{ cursor:hand; color : #434343; font-weight : normal; }
+
+/* 회원 탭메뉴 서브 */
+tabmenu_memsub{ position:relative; font-family:'돋움',dotum; font-size:12px; display: inline; }
+.tabmenu_sub {padding: 17px 0px 0px 0px;margin-left: 0;font-family:'돋움',dotum; font-size:12px;list-style: none;text-align: left; }
+.tabmenu_sub li{display: inline-block;margin: 0; display: inline;}
+
+.tabmenu_sub li a{text-decoration: none;margin-right: 5px;padding: 7px 10px 7px 10px;border: 1px solid #dddddd;background-color: #aabdce;color: #2d2b2b;}
+.tabmenu_sub li a:visited{color: #2d2b2b;}
+.tabmenu_sub li a:hover{background-color: #cfdde0;color: black;}
+.tabmenu_sub li a:active{color: black;}
+.tabmenu_sub li.onsub a{background-color: #FFA86F;color: black;font-weight:bold;} /*selected tab effect*/
+/* 회원 탭메뉴 서브 line-height:31px;*/
+
+/* 페이징 설정 */
+.PagingArea a { vertical-align:middle; }
+.PagingArea img { vertical-align:middle; }
